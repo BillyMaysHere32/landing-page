@@ -1,11 +1,40 @@
-.sub-container1b-pic {
-    max-width: 200px;
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.header {
+    display: flex;
+    background-color: rgb(72, 66, 66);
+    color:antiquewhite;
+    justify-content: space-between;
+}
+
 ul {
     list-style: none;
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+
+.sub-container1b-pic {
+    max-width: 200px;
 }
 
 a{
     text-decoration: none;
     color: lightgray;
+}
+
+.container3 {
+    background-color: lightgray;
+    
+}
+.container3quote {
+
+}
+
+.container3name {
+    font-weight: 700;
 }
