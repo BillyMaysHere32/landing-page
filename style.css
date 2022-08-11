@@ -2,13 +2,23 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.header, .container1, .container2, .container3, .footer {
+    padding: 0px 150px;
+}
 .header {
     display: flex;
     background-color: rgb(72, 66, 66);
     color:antiquewhite;
     justify-content: space-between;
+    font-size: large;
+    padding-bottom: 100px;
+}
+.header-title {
+    font-weight: 900;
+    color:white;
+    font-size: x-large;
 }
 
 ul {
@@ -25,6 +35,26 @@ ul {
 a{
     text-decoration: none;
     color: lightgray;
+}
+
+.container1 {
+    display: flex;
+    background-color: rgb(72, 66, 66);
+    color:antiquewhite;
+    justify-content: space-between;
+    font-size: large;
+}
+.sc1a-title {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.sign-up {
+    background-color: rgb(59, 137, 233);
+    color: white;
+    padding: 5px 20px;
+    font-size: medium;
+    font-weight: 700;
 }
 
 .container3 {
