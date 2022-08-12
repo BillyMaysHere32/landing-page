@@ -43,28 +43,75 @@ a{
     color:antiquewhite;
     justify-content: space-between;
     font-size: large;
+    padding-bottom: 40px;
 }
 .sc1a-title {
     font-weight: 900;
     font-size: xx-large;
 }
 
+.sc1a-text {
+    margin: 20px 0px;
+}
+
 .sign-up {
     background-color: rgb(59, 137, 233);
     color: white;
-    padding: 5px 20px;
+    padding: 8px 32px;
     font-size: medium;
+    font-weight: 700;
+    border-radius: 15%;
+}
+
+.pic-title {
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    font-size: xx-large;
     font-weight: 700;
 }
 
+.pic-info {
+    display:flex;
+    justify-content: center;
+    gap: 52px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ex {
+    max-width: 150px;
+}
 .container3 {
     background-color: lightgray;
-    
-}
-.container3quote {
+    padding: 100px 150px;
 
+}
+
+.container3quote {
+    font-style: italic;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container3name {
     font-weight: 700;
+}
+
+.footer {
+    background-color: rgb(59, 137, 233);
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    border-radius: 15px;
+}
+.n {
+    background-color: white;
+    margin: 90px;
+}
+.ftitle {
+    font-weight: 700;
+    font-size: x-large;
 }
