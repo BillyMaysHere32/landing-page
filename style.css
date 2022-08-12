@@ -88,6 +88,11 @@ a{
 
 }
 
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 .container3quote {
     font-style: italic;
     font-size: xx-large;
@@ -96,6 +101,7 @@ a{
 
 .container3name {
     font-weight: 700;
+    align-self: flex-end;
 }
 
 .footer {
@@ -109,7 +115,7 @@ a{
 }
 .n {
     background-color: white;
-    margin: 90px;
+    margin: 80px 20px;
 }
 .ftitle {
     font-weight: 700;
